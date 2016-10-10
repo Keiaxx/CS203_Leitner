@@ -184,7 +184,7 @@ public class LeitnerTUI {
                                 studyMethodPrompt = false;
                                 break;
                             default:
-                                System.out.println("\n\"" + input[0] + "\" was not a valid command. Please try again!. Press ENTER to continue.");
+                                System.out.println("\n\"" + args[0] + "\" was not a valid command. Please try again!. Press ENTER to continue.");
                                 keyboard.nextLine();
                                 break;
                         }

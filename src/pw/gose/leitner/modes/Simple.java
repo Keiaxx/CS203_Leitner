@@ -25,29 +25,11 @@ import pw.gose.leitner.types.FlashCard;
  * @author Adrian Gose
  *
  */
-public class Simple implements StudyMethod {
-
-    private FlashCardApp fca;
-    private ArrayList<FlashCard> cards;
+public class Simple extends AbstractStudyMethod {
 
     public Simple(int boxNum, FlashCardApp fca) {
         cards = fca.getCards(boxNum);
         this.fca = fca;
-    }
-
-    @Override
-    public String getQuestion() {
-        return fca.leitner().getQuestion();
-    }
-
-    @Override
-    public String getAnswer() {
-        return fca.leitner().getAnswer();
-    }
-
-    @Override
-    public Boolean testAnswer(String response) {
-        return fca.leitner().testAnswer(response);
     }
 
     @Override

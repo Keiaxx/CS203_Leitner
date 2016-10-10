@@ -11,27 +11,10 @@ import pw.gose.leitner.app.FlashCardApp;
  *
  * @author Administrator
  */
-public class LeitnerSystem implements StudyMethod{
-
-    private FlashCardApp fca;
+public class LeitnerSystem extends AbstractStudyMethod {
     
     public LeitnerSystem(FlashCardApp fca){
         this.fca = fca;
-    }
-    
-    @Override
-    public String getQuestion() {
-        return fca.leitner().getQuestion();
-    }
-
-    @Override
-    public String getAnswer() {
-        return fca.leitner().getAnswer();
-    }
-
-    @Override
-    public Boolean testAnswer(String response) {
-        return fca.leitner().testAnswer(response);
     }
 
     @Override
