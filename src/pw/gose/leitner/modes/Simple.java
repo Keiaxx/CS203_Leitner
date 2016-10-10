@@ -1,16 +1,10 @@
 package pw.gose.leitner.modes;
 
-import java.util.ArrayList;
 import pw.gose.leitner.app.FlashCardApp;
-import pw.gose.leitner.types.FlashCard;
 
 /**
  *
  * Class Simple.java
-
- This class inherits methods from Leitner Modifies wrongAnswer such that
- instead of the method moving wrong cards to the first box, it only moves
- wrong cards one box down than moving it straight to the first box.
  *
  * Assignment Description:
  *

@@ -1,32 +1,62 @@
 package pw.gose.leitner.modes;
 
-import pw.gose.leitner.types.FlashCard;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 /**
+ * Copyright (c) 2016
  *
- * @author Administrator
+ * @author Adrian Gose
+ *
  */
+
 public interface StudyMethod {
     
+    /**
+     * Return the name of the current study method
+     * @return 
+     */
     String getName();
 
+    /**
+     * Returns the current question of the picked card
+     * @return 
+     */
     String getQuestion();
 
+    /**
+     * Returns the current answer of the picked card
+     * @return 
+     */
     String getAnswer();
 
+    /**
+     * Tests the response and checks if it is correct
+     * 
+     * @param response
+     * @return 
+     */
     Boolean testAnswer(String response);
     
+    /**
+     * Checks to see if there are more cards, if any
+     * @return 
+     */
     Boolean hasNext();
 
+    /**
+     * Chooses a FlashCard
+     * 
+     */
     void pickCard();
 
+    /**
+     * Sets the answer to correct
+     * 
+     */
     void correctAnswer();
 
+    /**
+     * Sets the answer to wrong
+     * 
+     */
     void wrongAnswer();
 
 }

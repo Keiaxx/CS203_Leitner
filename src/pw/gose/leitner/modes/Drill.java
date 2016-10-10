@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pw.gose.leitner.modes;
 
-import java.util.ArrayList;
 import java.util.Random;
 import pw.gose.leitner.app.FlashCardApp;
-import pw.gose.leitner.types.FlashCard;
 
 /**
  *
@@ -51,7 +44,7 @@ public class Drill extends AbstractStudyMethod {
 
     @Override
     public void wrongAnswer() {
-        
+        /** Do nothing when answer is wrong in Drill mode **/
     }
 
     @Override
