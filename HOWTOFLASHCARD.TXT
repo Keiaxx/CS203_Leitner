@@ -1,0 +1,32 @@
+Flashcards are imported and loaded based on a textfile format.
+
+Each .txt should contain the following syntax:
+
+-----------Start Text File-----------
+question
+answer
+
+question2
+answer2
+
+question3
+answer3
+----------End Text File--------------
+
+If you would like images in the question of the FlashCard, an image file
+must be placed with the program itself (Jar or Project Directory) and denoted
+with an img: prefix
+
+image.png is located in the project directory of the current IDE, or in the same
+folder as the running JAR.
+
+------------Start Text File---------------
+question
+answer
+
+img:imagepng
+answer to the image
+
+question3
+answer3
+-------------End Text File---------------
