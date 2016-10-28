@@ -1,0 +1,92 @@
+applet
+A program that appears in a window, often intended to be embedded in a HTML document.
+
+application
+A stand-alone Java program stored and executed on the user's local computer.
+
+base or radix
+In an example of 2^X, 2 is the base or radix. The numeric in an exponent.
+
+binary
+A string of bits, Base 2.
+
+boolean expression
+Is a selection control structure that introduces a decision-making ability into a program, TRUE or FALSE
+
+checked exception
+An error that is resolved in a program usually with a try..catch block.
+
+compound boolean expressions
+Combination of two conditionals that evaluate to true or false.
+
+declaration
+An equation (has an =) that identifies a variable.
+
+double precision
+A binary computing format that occupies 8 bytes in computer memory.
+
+exception
+An error condition that occurs during the execution of a Java program.
+
+final or user-defined constant
+Constant, cannot be changed.
+
+hexidecimal
+Number utilizing base 16
+
+identifier
+Name of a variable, parameter, constant, user-defined method, or user-defined class.
+
+initialization
+To start, the first value given to a variable
+
+instance variables
+identifiers used to descibe the attributes of an object.
+
+logical operator
+Applied to boolean expressions to form compound boolean expressions that evaluate to true or false. AND, OR and NOT.
+
+mantissa
+Specifies the digits of a number when an exponent is used.
+
+nested or embedded
+One control statement inside another, such as an if or loop.
+
+overflow error
+When you try to strore a value whose magnitude is too big an int variable.
+
+primative types or built in type
+Type of sequence of letters or digits specified by int, boolean, or double.
+
+relational operator
+Used in boolean expressions that evaluate to true or false. Combinations of <. > or =
+
+reserved words or keywords
+Words used by java that have a special meaning. They cannot be used as variable names.
+
+round off errors
+When double values are translated to binary bits information is lost or created.
+
+short-cut evalulation
+The process in an "if statment" that allows it to skip the rest of the stated program, should it come to the conclusion prior to the end of the program.
+
+single precision
+A binary computing format that occupies 4 bytes in computer memory.
+
+statements
+A line of java code.
+
+static
+Not belonging to a class or individual objects.
+
+termination condition
+The condition that stops the loop.
+
+unchecked exception
+An error that will not be resolved in the program.
+
+update statement
+The way the index of a loop changes value.
+
+variable
+An identifier that represents a location in memory.

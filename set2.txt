@@ -1,0 +1,38 @@
+Computer programs 
+Computers process data under the control. Of sequences of instructions
+
+Input unit 
+Receiving section which obtains data from input devices and places it at disposal of other units for processing
+
+Output unit 
+Shipping section which takes information the computer has processed and places it on various output devices to make it available for use outside the computer.
+
+Memory unit 
+Rapid-access, relatively low-capacity "warehouse" section retains information that has been entered through the input unit, making it immediately available for processing.
+
+Arithmetic and logic unit 
+Performs calculations, such as addition and subtraction. In todays systems the ALU is implemented as part of the next logical unit, the CPU
+
+Central Processing Unit 
+This administrative section coordinates and supervises the operation of the other sections.
+
+Secondary storage unit 
+This is long-term, high capacity warehousing section. Everything not actively being used are stored in here.
+
+Bits 
+The smallest data item in a computer that can assume value 0 or the value 1. Also called binary digit
+
+Characters 
+Numbers, letters, and special symbols.
+
+Fields 
+A group of characters or bytes.
+
+Record 
+Several related fields
+
+File 
+Group of related records
+
+Database 
+Collection of data organized for easy access and manipulation
